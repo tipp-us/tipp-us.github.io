@@ -91,7 +91,7 @@ font-style: italic;
 font-size:44px;
 }
 
-.about,.work,.contact {
+.about,.tech,.contact,.team {
 padding:50px 0 0;
 }
 
@@ -103,7 +103,7 @@ border-radius:150px;
 -moz-border-radius:150px;
 }
 
-.work img:hover {
+.tech img:hover {
 opacity:0.5;
 -webkit-transition:.3s ease;
 -moz-transition:.3s ease;
@@ -112,10 +112,30 @@ opacity:0.5;
 transition:.3s ease;
 }
 
-.work li {
+.tech li {
 height:140px;
 overflow:hidden;
 }
+
+.team img {
+  border-radius: 50%;
+  height: 235px;
+  width: 235px;
+  display: block;
+  margin: 5px auto;
+}
+
+.team .panel {
+  width: 235px;
+  display: block;
+  margin: 5px auto;
+}
+
+.team h3 {
+  text-align: center;
+}
+
+
 
 hr {
 border:0;
