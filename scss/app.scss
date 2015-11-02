@@ -181,7 +181,10 @@ text-align:left;
 .intro-text {
 padding-top:25%;
 }
-/*}*/
+
+img, {
+  box-shadow: 0px 0px 12px #888;
+}
 
 /*@media only screen and min-width 64063em{
 .namelogo h1 {
