@@ -1,4 +1,4 @@
-$(document).foundation();
+// $(document).foundation();
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
