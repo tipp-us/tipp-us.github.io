@@ -104,7 +104,7 @@ text-align:center;
   /*font-family:'Shadows Into Light',cursive;*/
   /*font-style: italic;*/
   font-size:64px;
-  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-weight: bold;
 }
 
@@ -210,3 +210,13 @@ p, .button{
 .footer {
   font-size: 1.15em;
 }
+.valign-center {
+    position: relative;
+    top: 35%;
+    > .columns {
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -o-transform:translateY(-50%);
+      -ms-transform:translateY(-50%);
+    }
+  }
