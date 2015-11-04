@@ -40,8 +40,8 @@
 //   "foundation/components/visibility";
 
 body {
-font-family:Raleway,Helvetica,Arial,sans-serif;
-font-weight:400;
+/*font-family:'Open Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+/*font-weight:400;*/
 background-color:rgba(0,0,0,0.02);
 }
 
@@ -52,8 +52,15 @@ background-color:rgba(0,0,0,0.02);
   font-size: 3.5em;
   margin-top: 0px;
 }
+.nav-title, .title, .name {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.title {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
 .button {
-  font-family:Raleway,Helvetica,Arial,sans-serif;
+  /*font-family:Raleway,Helvetica,Arial,sans-serif;*/
 }
 
 .button-group li {
@@ -87,15 +94,18 @@ height:80%;
 }
 
 .intro-text {
-padding-top:40%;
+font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+padding-top:20%;
 color:rgba(255,255,255,1);
 text-align:center;
 }
 
 .intro-text p {
-/*font-family:'Shadows Into Light',cursive;*/
-font-style: italic;
-font-size:44px;
+  /*font-family:'Shadows Into Light',cursive;*/
+  /*font-style: italic;*/
+  font-size:64px;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  font-weight: bold;
 }
 
 .about,.tech,.contact,.team {
@@ -183,10 +193,6 @@ font-size:16px;
 text-align:left;
 }
 
-.intro-text {
-padding-top:25%;
-}
-
 .feat-image, {
   box-shadow: 0px 0px 12px #888;
 }
@@ -197,7 +203,10 @@ font-size:24px;
 text-align:left;
 }*/
 
-.intro-text {
-padding-top:18%;
-}
 /*}*/
+p, .button{
+  font-size: 1.2em;
+}
+.footer {
+  font-size: 1.15em;
+}
