@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       script: {
         src: [
           'bower_components/foundation/js/foundation/foundation.js',
-          'bower_components/foundation/js/foundation/foundation.tabs.js',
+          'bower_components/foundation/js/foundation/foundation.tab.js',
           'bower_components/foundation/js/foundation/foundation.slider.js',
           'bower_components/foundation/js/foundation/foundation.topbar.js',
           // ...more foundation JS you might want to add
@@ -86,7 +86,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('script',  ['concat', 'uglify']);
-  grunt.registerTask('build', ['sass', 'script']);
+  // grunt.registerTask('script',  ['concat', 'uglify']);
+  grunt.registerTask('build', ['sass', 'concat', 'uglify']);
   grunt.registerTask('default', ['build','watch']);
 };
