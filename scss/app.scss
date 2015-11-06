@@ -40,11 +40,8 @@
 //   "foundation/components/visibility";
 
 body {
-/*font-family:'Open Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
-/*font-weight:400;*/
-background-color:rgba(0,0,0,0.02);
+  background-color:rgba(0,0,0,0.02);
 }
-
 .nav-bar a {
   padding: 16px;
 }
@@ -59,102 +56,93 @@ background-color:rgba(0,0,0,0.02);
   margin-top: .75em;
   margin-bottom: .75em;
 }
-.button {
-  /*font-family:Raleway,Helvetica,Arial,sans-serif;*/
-}
-
 .button-group li {
-padding-top:3%;
+  padding-top:3%;
 }
-
 .button-group a {
-color:rgba(0,0,0,1);
-background-color:transparent;
+  color:rgba(0,0,0,1);
+  background-color:transparent;
 }
-
+.button-group a:hover,footer a:hover {
+  color:rgba(0,0,0,0.4);
+  background-color:transparent;
+}
 .button-group {
-float:none;
+  float:none;
 }
-
 .namelogo {
-padding:20px 10px 0;
+  padding:20px 10px 0;
 }
-
 .namelogo h1 {
-font-size:1.5em;
-font-weight:600;
-text-align:center;
+  font-size:1.5em;
+  font-weight:600;
+  text-align:center;
 }
-
 .hero {
-background:url(../images/live-music.jpg);
-background-size:cover;
-box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.15);
-height:80%;
+  background:url(../images/live-music.jpg);
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.15);
+  height:80%;
 }
-
+.v-align-center {
+  position: relative;
+  top: 35%;
+  > .columns {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+  }
+}
 .intro-text {
-font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
-padding-top:20%;
-color:rgba(255,255,255,1);
-text-align:center;
+  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+  padding-top:20%;
+  color:rgba(255,255,255,1);
+  text-align:center;
 }
-
 .intro-text p {
-  /*font-family:'Shadows Into Light',cursive;*/
-  /*font-style: italic;*/
   font-size:64px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-weight: bold;
 }
-
 .about,.tech,.contact,.team {
-padding: 25px 0 0;
+  padding: 25px 0 0;
 }
-
 .about img {
-width:250px;
-height:250px;
-border-radius:150px;
--webkit-border-radius:150px;
--moz-border-radius:150px;
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  -webkit-border-radius:150px;
+  -moz-border-radius:150px;
 }
-
 li.tab-title.active a{
   border: 1px solid #999;
 }
-
 .features a {
-  /*border: 1px solid black;*/
   margin-right: 1em;
   margin-left: 1em;
 }
-
 .features-image {
   display: block;
   margin: 0 auto;
   border: 1px solid #999;
   border-radius: 3px;
 }
-
 .tabs-content {
   background-color: #efefef;
 }
-
 .tech img:hover {
-opacity:0.5;
--webkit-transition:.3s ease;
--moz-transition:.3s ease;
--ms-transition:.3s ease;
--o-transition:.3s ease;
-transition:.3s ease;
+  opacity:0.5;
+  -webkit-transition:.3s ease;
+  -moz-transition:.3s ease;
+  -ms-transition:.3s ease;
+  -o-transition:.3s ease;
+  transition:.3s ease;
 }
-
 .tech p {
   text-align: center;
   margin-top: 1em;
 }
-
 .team img {
   border-radius: 50%;
   height: 250px;
@@ -162,22 +150,18 @@ transition:.3s ease;
   display: block;
   margin: 15px auto;
 }
-
 .team .panel {
   width: 250px;
   display: block;
   margin: 5px auto;
   text-align: center;
 }
-
 .small {
   margin-top: 2em;
 }
-
 .hidden {
   display: none;
 }
-
 hr {
   border: 0;
   height: 1px;
@@ -185,59 +169,23 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
   width: 1140px;
   margin: 50px auto 0px;
-  /*border:0;
-  height:1px;
-  background-image:0;
-  opacity:0.8;*/
 }
-
 footer {
-padding:80px 0 10px;
+  padding:80px 0 10px;
 }
-
-.button-group a:hover,footer a:hover {
-color:rgba(0,0,0,0.4);
-background-color:transparent;
-}
-
-/*@media only screen and min-width 40063em{
-.button-group {
-float:right;
-}*/
-
 .namelogo {
-padding-bottom:20px;
+  padding-bottom:20px;
 }
-
 .namelogo h1 {
-font-size:16px;
-text-align:left;
+  font-size:16px;
+  text-align:left;
 }
-
 .feat-image, {
   box-shadow: 0px 0px 12px #888;
 }
-
-/*@media only screen and min-width 64063em{
-.namelogo h1 {
-font-size:24px;
-text-align:left;
-}*/
-
-/*}*/
 p, .button{
   font-size: 1.2em;
 }
 .footer {
   font-size: 1.15em;
 }
-.valign-center {
-    position: relative;
-    top: 35%;
-    > .columns {
-      transform: translateY(-50%);
-      -webkit-transform: translateY(-50%);
-      -o-transform:translateY(-50%);
-      -ms-transform:translateY(-50%);
-    }
-  }
