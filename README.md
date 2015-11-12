@@ -1,6 +1,8 @@
 # tipp-us.github.io
 
-This is the project page for [tipp.us](https://tipp.us/), a local tipping app.
+This is the project page for [tipp.us](https://tipp.us/), a local tipping app. 
+
+GitHub repo available [here](https://github.com/tipp-us/tipp-us);
 
 ## Technologies
 CSS Framework: [Zurb Foundation](http://foundation.zurb.com/)
