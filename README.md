@@ -1,29 +1,12 @@
-# Foundation libsass template
+# tipp-us.github.io
 
-This is a template to start your own project that uses Grunt and libsass!
+This is the project page for [tipp.us](https://tipp.us/), a local tipping app.
 
-## Requirements
+## Technologies
+CSS Framework: [Zurb Foundation](http://foundation.zurb.com/)
 
-You'll need to have the following items installed before continuing.
+CSS Preprocessor: [Sass](http://sass-lang.com/)
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+Build Tool: [Grunt](http://gruntjs.com/)
 
-## Quickstart
-
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
-
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+Hosting: [GitHub Pages](https://pages.github.com/)
